@@ -88,4 +88,4 @@ plt.show()
 # Print dark matter fraction
 dm_fraction = (M_dark[-1]/(M_visible[-1] + M_dark[-1])).value*100
 print(f"Dark matter fraction at virial radius: {dm_fraction:.1f}%")
-plt.savefig('/media/shahid/OS/PhD Nust/Astronomy & Astrophysics/Project Presentation/Mass_Distribution_in_Galaxy.png')  # Save the plot as PNG
+plt.savefig('Mass_Distribution_in_Galaxy.png')  # Save the plot as PNG
